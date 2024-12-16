@@ -28,7 +28,7 @@ const Footer = () => {
               target="_blank"
             >
               <FaXTwitter className="size-5" />
-              <div> @jimmjamm07</div>
+              <div> @jimiltwt</div>
             </Link>
           </div>
           <div className="flex-1 w-full">
