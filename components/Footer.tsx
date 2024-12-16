@@ -24,7 +24,7 @@ const Footer = () => {
 
             <Link
               className="flex items-center gap-2 justify-start mb-2 hover:text-white hover:underline"
-              href="https://x.com/jimmjamm07"
+              href="https://x.com/jimiltwt"
               target="_blank"
             >
               <FaXTwitter className="size-5" />

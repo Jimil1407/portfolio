@@ -103,6 +103,15 @@ const Projects = () => {
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               AR
             </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Unity
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              CNN
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Mediapipe
+            </div>
           </div>
         </div>
 
@@ -146,6 +155,15 @@ const Projects = () => {
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               Flask
             </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Time Series
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Cryptocurrency
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Yahoo Finance
+            </div>
           </div>
         </div>
 
@@ -176,7 +194,8 @@ const Projects = () => {
           </div>
           <div className="px-3 text-neutral-400 italic">
             {" "}
-            a Image Caption Generator that generates a caption for an image using a pre-trained model.
+            a Image Caption Generator that generates a caption for an image using a pre-trained model where we have used VGG 16 
+            as the encoder and a decoder to generate the caption. A custom dataset is used to train the model.
           </div>
           <div className="flex flex-wrap gap-2 px-3 pt-4 text-xs lg:text-sm font-medium mb-2 items-center justify-start">
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
@@ -187,6 +206,15 @@ const Projects = () => {
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               OpenCV
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              PyTorch
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              Encoder Decoder
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              CNN
             </div>
           </div>
         </div>
@@ -233,6 +261,9 @@ const Projects = () => {
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               PyPDF2
             </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              OpenAI
+            </div>
           </div>
         </div>
 
@@ -266,12 +297,14 @@ const Projects = () => {
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               PostgreSQL
             </div>
-         
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               Vercel
             </div>
             <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
               HTML/CSS
+            </div>
+            <div className="bg-[#2e2e2e] px-3 py-0.5 w-fit rounded-full">
+              MongoDB
             </div>
           </div>
         </div>

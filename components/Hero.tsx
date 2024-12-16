@@ -2,6 +2,9 @@
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { SiCodeforces } from "react-icons/si";
+import { SiHuggingface } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import DownloadResume from "./ui/DownloadResume";
 import Image from "next/image";
@@ -95,6 +98,27 @@ export default function Hero() {
               rel="noopener noreferrer"
             >
               <FaLinkedinIn className="text-2xl hover:scale-110" />
+            </a>
+            <a
+              href="https://huggingface.co/jimil07"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiHuggingface className="text-2xl hover:scale-110" />
+            </a>
+            <a
+              href="https://leetcode.com/u/jimil_07/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiLeetcode className="text-2xl hover:scale-110" />
+            </a>
+            <a
+              href="https://codeforces.com/profile/jimildigaswala"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiCodeforces className="text-2xl hover:scale-110" />
             </a>
             <a
               href="mailto:jimil.devs@gmail.com"
