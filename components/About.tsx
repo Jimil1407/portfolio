@@ -11,7 +11,7 @@ const About: React.FC = () => {
         <p className="mt-4 text-neutral-200 mx-auto text-base xl:text-lg font-medium">
           {" "}
           I am a <b>Machine Learning Engineer </b>specializing in{" "}
-          <b>AI&ML</b>, currently pursuing a B.E. at Vellore Institute of
+          <b>AI&ML</b>, currently pursuing a B.Tech in CSE(AI&ML) at Vellore Institute of
           Technology (CGPA: <b>9.19/10</b>). Skilled in{" "}
           <b>Python, Java, Machine Learning, Deep Learning, NLP, Computer Vision</b>, I create
           scalable & useful models. My projects include a Bitcoin Price Predictor, PDF Research Bot & a
