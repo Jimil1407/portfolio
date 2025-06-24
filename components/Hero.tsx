@@ -15,6 +15,7 @@ import Star from "@/public/images/emojistar.png";
 import Helix from "@/public/images/cube-helix.png";
 import Pyramid from "@/public/images/pyramid.png";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Hero() {
   return (

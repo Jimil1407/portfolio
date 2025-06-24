@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -45,6 +46,12 @@ body::-webkit-scrollbar {
 
 .font-inter {
   font-family: "Inter", sans-serif;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @layer base {
@@ -110,4 +117,12 @@ body::-webkit-scrollbar {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.hero-3d {
+  text-shadow:
+    2px 2px 0 #222,
+    4px 4px 0 #111,
+    6px 6px 0 #000,
+    0 1px 10px rgba(0,0,0,0.5);
 }
